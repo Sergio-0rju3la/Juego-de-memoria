@@ -1,0 +1,69 @@
+body{
+    background: rgb(45,18,64);
+background: linear-gradient(180deg, rgba(45,18,64,1) 0%, rgba(131,34,57,1) 70%, rgba(255,51,69,1) 100%);
+
+}
+.titu{
+    background-color: coral;
+    height: 100px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 3px;
+    color: white;
+    justify-content: center;
+}
+.tabla1{
+    background-color: rgba(255, 171, 223, 0.164);
+    align-items: center;
+    width: 900px;
+    min-height: 1000px;
+}
+.tabla2{
+    background-color: blueviolet;
+}
+.casilla{
+    background-color: brown;
+    padding: 30px;
+    min-width: 80px;
+    min-height: 80px;
+    border: 2px solid rgba(95, 18, 18, 0.938);
+    text-align: center;
+    color: white;
+}
+.juego{
+    padding: 20px;
+}
+.est{
+    width:50px;
+    
+    
+}
+button:hover{
+cursor: pointer;
+background-color: rgb(198, 66, 66);
+}
+button:hover img{
+    max-width: 80%;
+}
+.pantalla{
+    background-color: rgba(231, 58, 153, 0.199);
+    padding: 20PX;
+    margin: 10px;
+    border-radius: 5%;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    width: 100px;
+    margin: 20px;
+}
+.casilla img{
+    max-width: 60px;
+}
+.titu img{
+    max-width: 100px;
+}
+#ganar{
+    color: white;
+}
